@@ -23,6 +23,22 @@ target_sources(${APP_TARGET}
 target_link_libraries(${APP_TARGET}
     PRIVATE
         mbed-os
+        mbed-storage
+        mbed-storage-kvstore
+        #mbed-storage-sd
+        #mbed-storage-littlefs
+        #mbed-storage-qspif
+        mbed-events
+        mbed-ble
+        #mbed-ble-utils
+        mbed-netsocket
+        mbed-cellular
+        mbed-lorawan
+        #mbed-mbedtls
+        #mbed-nanostack
+        mbed-nfc
+        #mbed-psa
+        #mbed-device_key
 )
 
 mbed_set_post_build(${APP_TARGET})
