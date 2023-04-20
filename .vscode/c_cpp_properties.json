@@ -1,0 +1,9 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "compileCommands": "${workspaceFolder}/cmake_build/DISCO_L475VG_IOT01A/develop/GCC_ARM/compile_commands.json"
+        }
+    ],
+    "version": 4
+}
