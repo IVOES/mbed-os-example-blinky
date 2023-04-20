@@ -2,3 +2,5 @@
 .mbed
 projectfiles
 *.py*
+cmake_build/
+mbed-os/
